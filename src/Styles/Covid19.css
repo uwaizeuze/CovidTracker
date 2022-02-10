@@ -1,0 +1,44 @@
+.conatiner__covid19 {
+  background-color: #eee;
+}
+
+.covid19__heading__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.covid19__title {
+  margin-top: 40px;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 400;
+  color: #000000a6;
+}
+.covid19__india {
+  font-size: 60px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #00000080;
+}
+.covid19__table__box {
+  margin-top: 30px;
+}
+.state {
+  width: 200px;
+  text-transform: capitalize;
+}
+.confirmed {
+  width: 150px;
+}
+.Deaths {
+  width: 150px;
+}
+.state__data:hover {
+  cursor: pointer;
+  background-color: rgba(0, 128, 0, 0.699);
+}
+.state__deaths:hover {
+  cursor: pointer;
+  background-color: red;
+}

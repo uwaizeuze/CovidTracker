@@ -1,0 +1,90 @@
+.todo__container {
+  height: 500px;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.671);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.todo__title {
+  font-size: 35px;
+  font-weight: 400;
+  background-color: #0000ffab;
+  position: relative;
+  top: 25px;
+  color: #ffff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input__container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input__search {
+  width: 230px;
+  height: 26px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid grey;
+  text-align: center;
+  font-size: 18px;
+  padding: 18px;
+  margin-right: 20px;
+  box-shadow: 0px 3px 5px rgb(0 0 0 / 40%);
+  color: #283593;
+}
+.input__button {
+  font-size: 25px;
+  color: #fff;
+  background: #880e4f;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input__button:hover {
+  color: green;
+}
+ol {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  font-size: 25px;
+  color: rgb(32, 86, 202);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.534);
+}
+li:hover {
+  background-color: rgba(255, 0, 0, 0.671);
+}
+.Mlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Mlist__span {
+  font-size: 25px;
+}
+
+.Mlist__span:hover {
+  color: red;
+  cursor: pointer;
+}
+.Mlist__li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

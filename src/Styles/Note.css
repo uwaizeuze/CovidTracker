@@ -1,0 +1,41 @@
+.note__container {
+  height: 130px;
+  width: 220px;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgb(0 0 0 / 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.note__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-right: 80px;
+}
+
+.note__title {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 300;
+}
+.note__description {
+  text-transform: capitalize;
+  font-size: 19px;
+  font-weight: 300;
+}
+.note__btn {
+  display: flex;
+  justify-content: end;
+  margin-left: 140px;
+}
+.note__button {
+  cursor: pointer;
+}
+.note__button:hover {
+  color: red;
+}

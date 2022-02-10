@@ -1,0 +1,53 @@
+.incDec__container {
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.incDec__title {
+  background-color: rgba(57, 57, 235, 0.678);
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #fff;
+  height: 70px;
+}
+.btn__box {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn__inc {
+  font-size: 30px;
+  text-transform: capitalize;
+  background-color: #0000ff7a;
+  border: none;
+  color: #fff;
+  padding: 7px 14px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px rgb(0 0 0 / 30%);
+  cursor: pointer;
+}
+
+.btn__inc:hover {
+  color: green;
+}
+.btn__dec {
+  font-size: 30px;
+  text-transform: capitalize;
+  background-color: #0000ff7a;
+  border: none;
+  color: #fff;
+  padding: 7px 14px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px rgb(0 0 0 / 30%);
+  cursor: pointer;
+}
+.btn__dec:hover {
+  color: rgb(128, 0, 0);
+}
